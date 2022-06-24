@@ -6,7 +6,7 @@ const login = new Login();
 describe("Login page Nurdor Admin Panel", () => {
   before("Visit Nurdor Admin login page", () => {
     cy.visit("/");
-    login.assertLoginUrl();
+    login.assertLoginPage(data.loginH2);
   });
 
   it("Login with empty fields - negative", () => {

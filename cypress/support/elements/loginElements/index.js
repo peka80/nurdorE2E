@@ -5,4 +5,5 @@ export default {
   noEmailDiv: "[id='email-feedback']",
   noPassDiv: "[id='password-feedback']",
   wrongCreds: "[id='field-37-feedback']",
+  heading: "h2",
 };

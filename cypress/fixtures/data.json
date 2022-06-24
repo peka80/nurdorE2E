@@ -8,5 +8,7 @@
     "isAMust": "Lozinka je obavezna"
   },
 
-  "wrongCredentials": "Uneti kredencijali nisu validni. Molim vas pokušajte ponovo sa validnim kredencijalima."
+  "wrongCredentials": "Uneti kredencijali nisu validni. Molim vas pokušajte ponovo sa validnim kredencijalima.",
+
+  "loginH2": "Prijavi se"
 }

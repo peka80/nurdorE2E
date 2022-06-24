@@ -1,8 +1,11 @@
 import LoginElements from "../../elements/loginElements";
 
 class Login {
-  assertLoginUrl() {
+  assertLoginPage(loginHeading) {
     cy.url().should("contain", "/login");
+    cy.get(LoginElements.heading)
+      .should("be.visible")
+      .and("contain", loginHeading);
   }
 
   loginEmptyFields(noEmail, noPass) {

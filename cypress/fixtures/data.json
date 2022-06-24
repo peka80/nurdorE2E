@@ -1,0 +1,12 @@
+{
+  "email": {
+    "isAMust": "Email adresa je obavezna",
+    "notValidFormat": "Email adresa nije validnog formata"
+  },
+
+  "password": {
+    "isAMust": "Lozinka je obavezna"
+  },
+
+  "wrongCredentials": "Uneti kredencijali nisu validni. Molim vas pokušajte ponovo sa validnim kredencijalima."
+}

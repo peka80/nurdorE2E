@@ -1,0 +1,14 @@
+{
+  "name": "nurdore2e",
+  "version": "1.0.0",
+  "description": "Nurdor Admin Panel E2E",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peka",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.2.0"
+  }
+}
